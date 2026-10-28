@@ -1,60 +1,51 @@
 UNIFORM PLURICANONICAL IITAKA FIBRATIONS
-A guide to the argument attributed to OpenAI, October 3, 2026
+The argument attributed to OpenAI, October 3, 2026
 
-THE QUESTION AND THE WARNING
+THE QUESTION, AND WHAT THIS ACCOUNT DOES
 
-Can the dimension of a shape defined by polynomial equations tell us
-how far to look in its canonical equations before we have found all
-the information those equations can ever reveal?
+Can dimension alone tell us how far to look in the canonical equations
+of an algebraic shape before we have found everything they can reveal?
 
-The manuscript claims yes. It simultaneously claims a uniform bound
-on certain canonical torsion orders. This guide explains its statements,
-calculations, and dependencies; it does not independently certify them.
+The proposed answer is yes. A second proposed theorem uniformly bounds
+certain canonical torsion orders. This account explains both statements,
+their dependencies, and the calculations joining them. It is not an
+independent verification of the claimed theorems.
 
-Four companion preprints matter: Log abundance in characteristic zero
-(LA), Arithmetic Stein-degree bounds for log Calabi-Yau pairs (SD),
+A crucial assumption is the all-dimensional good-model theorem in
+OpenAI's Log abundance in characteristic zero (LA, 2026). It includes
+nonvanishing as well as abundance. Neither conclusion follows here
+from finite generation for big adjoints. Further inputs come from
+OpenAI's Arithmetic Stein-degree bounds for log Calabi-Yau pairs (SD),
 Uniform effective log Iitaka fibrations for fourfolds (U4), and Relative
 denominators and effective systems for log Calabi-Yau fibrations (R4).
-In particular, LA supplies all-dimensional log abundance AND
-nonvanishing. Neither is inferred here from finite generation for big
-adjoints. The conclusions below are conditional on the validity and
-applicability of the stated inputs.
+The conclusion is conditional on the validity and applicability of
+these inputs and of the intervening arguments.
 
-"Standalone" means that definitions, the proof's architecture, and its
-quantitative comparisons are explained here. It does not mean that the
-many imported research theorems are proved from school mathematics.
-Read sections 1-3 for the question and strategy; later sections explain
-the machinery. The final section identifies every cited source.
+The first three sections introduce the problem without assuming
+algebraic geometry. Later sections retain the technical hypotheses
+and proof calculations. Imported research theorems are identified,
+not proved from school mathematics: a fully elementary proof is not
+being claimed. No explicit, practical bound is obtained.
 
 CONTENTS
- 1. Shapes, forms, fields: what is being claimed?
- 2. The dictionary for singular shapes
- 3. The induction: two routes that must not become a circle
+ 1. Shapes, canonical forms and the exact claim
+ 2. Dictionary: divisors, singularities and positivity
+ 3. The induction and its two separate inputs
  4. Recovering an index from one boundary component
- 5. Finite covers and their volume-form characters
- 6. Denominators: bound the character, not the ramification
- 7. Two uses of the base: maps and torsion
- 8. Reducing an unbounded index to a rigid sequence
- 9. Scalar bounds: sections cannot concentrate too much
-10. Diagonal products: two incompatible orders of one determinant
-11. Compatible leaves: polynomial growth forces rational recovery
+ 5. Covers, blocks and volume-form characters
+ 6. Moduli denominators: bound characters, not ramification
+ 7. Two applications on the base: maps and torsion
+ 8. What an unbounded-index sequence would have to look like
+ 9. Scalar estimates: sections cannot concentrate too much
+10. Diagonal products: one determinant, incompatible orders
+11. Compatible leaves and rational recovery
 12. Closing the induction and changing the field
-13. Source register and limits of the conclusion
+13. Sources and the precise limits of the conclusion
 
-1. SHAPES, FORMS, FIELDS: WHAT IS BEING CLAIMED?
+1. SHAPES, CANONICAL FORMS AND THE EXACT CLAIM
 ==============================================================
 
-A variety is a shape described by polynomial equations. "Integral"
-means one irreducible piece, with no nilpotent thickening. "Projective"
-means it is a closed subvariety of projective space, whose coordinates
-are ratios [x_0:...:x_N]; over the complex numbers it is compact.
-"Smooth" means no singular points. Dimension counts independent local
-coordinates; complex dimension n means real dimension 2n at smooth
-points.
-
-A field permits addition, multiplication, and division by nonzero
-elements. The function field k(X) consists of rational functions on X.
-A rational map need only be defined on a dense open part. Two varieties
-are birational if dense open parts are isomorphic, or equivalently if
-their function fields agree over the ground field k. This is weaker
+A variety is a shape defined by polynomial equations. Integral means
+one irreducible piece, with no nilpotent thickening. Projective means
+closed in projective space, whose coordinates are ratios
 # ^C interrupted by user!
